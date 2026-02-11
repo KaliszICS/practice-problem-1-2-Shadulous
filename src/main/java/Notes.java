@@ -17,6 +17,7 @@ class Notes {
 		number = 8; //stores the number 8 in the variable number
 		// = is the assignment symbol
 		fracNumber = 3.5;
+		// number = 5.5; //cannot store a double value in an integer variable
 
 		//call variable - getting the value back
 
@@ -26,12 +27,14 @@ class Notes {
 
 		//addition
 
-		System.out.println(number + fracNumber);
+		System.out.println(number + fracNumber); //
 
 		//subtraction
 
 		//you can declare and assign to a variable on the same line
 		double result = number - fracNumber;
+		//double result = 8 - 3.5;
+		//double result = 4.5;
 		System.out.println(result);
 
 		//multiplication - *
@@ -40,9 +43,9 @@ class Notes {
 
 		//division - /
 
-		System.out.println(number / 2);
-		System.out.println(number / 3);
-		System.out.println(number / 3.0);
+		System.out.println(number / 2); //4
+		System.out.println(number / 3); //2.6666666
+		System.out.println(number / 3.0); //2.666666
 		//when using only integers, you will get an integer solution
 		//when combining integers and doubles, you get a double solution
 
